@@ -1,0 +1,197 @@
+body{
+    background-color:mediumpurple;
+    margin: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar{
+    background: rgb(84, 31, 108);
+    
+    display: flex;
+   
+    justify-content: space-between;
+
+   
+}
+.navbar-icon{
+    width:50%;
+    height:50px;
+    color:white;
+    font-size: x-large;
+    display:flex;
+    
+    align-items: center;
+    
+}
+.navbar-items{
+    width:50%;
+    height:50px;
+    color:white;
+    font-size:larger;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.main-container{
+    color: white;
+    overflow-x: hidden;
+}
+
+
+.home-left-content1{
+    margin-left: 40px;
+    position:relative;
+    left:100px;
+    top:200px;
+}
+.home-left-content2{
+    margin-left: 40px;
+    position:relative;
+    left:100px;
+    top:150px;
+    font-weight: 100;
+}
+.home-left-content3{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: first baseline;
+    
+    position:relative;
+    bottom:380px;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    border: 3px solid rgb(84, 31, 108);
+    border-radius: 50%;
+    border-width: thick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: transform 0.8s ease-in-out;
+    
+}
+.home-right{
+    display:flex;
+    justify-content: center;
+    
+}
+#img-design{
+    width:600px;
+    height:600px;
+    background: rgb(84, 31, 108);
+    border-radius: 50%;
+    position:relative;
+    left:300px;
+    top:-370px;
+}  
+a{
+    text-decoration: none;
+    color: white;
+} 
+
+.about{
+    display: flex;
+    align-items: center;
+    position:relative;
+    top:-300px;
+}
+
+p{
+    font-size: x-large;
+    text-align: center;
+    font-family:monospace;
+}
+.skills-sub{
+    background-color: rgb(84, 31, 108);
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.project-one{
+    width:220px;
+    height:150px;
+    border:3px solid rgb(84, 31, 108);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.project-two{
+    width:220px;
+    height:150px;
+    border:3px solid rgb(84, 31, 108);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.project-three{
+    width:220px;
+    height:150px;
+    border:3px solid rgb(84, 31, 108);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+#Projects{
+    position:relative;
+    top:10px;
+}
+.contact-head{
+    position:relative;
+    top:90px;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(84, 31, 108);
+    
+
+}
+.contact-left{
+    height:50%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position:relative;
+    top:100px;
+    left:400px;
+
+    
+}
+#Skills{
+    position:relative;
+    top:-190px;
+}
+#Projects{
+    position:relative;
+    top:-150px;
+}
+#Contact{
+    position:relative;
+    top:-110px;
+}
+#image{
+    position:relative;
+    left:110px;
+    top:50px;
+}
+
+#send{
+    cursor: pointer;
+    width: 508px; height: 40px;background:rgb(84, 31, 108);font-size: x-large;color:white;cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+button:hover{
+    transform: scale(0.8);
+}
+a:hover{
+    transform: scale(1.2);
+}
