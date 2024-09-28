@@ -5,7 +5,7 @@ body{
 }
 .navbar{
     background: rgb(84, 31, 108);
-    
+    width:1620px;
     display: flex;
    
     justify-content: space-between;
@@ -27,6 +27,8 @@ body{
     height:50px;
     color:white;
     font-size:larger;
+    position: relative;
+    left: -50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -34,7 +36,6 @@ body{
 }
 .main-container{
     color: white;
-    overflow-x: hidden;
 }
 
 
